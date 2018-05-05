@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zeus.loginpage.InsertData">
+
+    <TextView
+        android:id="@+id/prdText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <TextView
+        android:id="@+id/priceText"
+        android:layout_width="91dp"
+        android:layout_height="19dp"
+        android:text="Price"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <TextView
+        android:id="@+id/quantityText"
+        android:layout_width="107dp"
+        android:layout_height="23dp"
+        android:text="Quantity"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <EditText
+        android:id="@+id/ProductData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <EditText
+        android:id="@+id/priceData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <EditText
+        android:id="@+id/quantityData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <Button
+        android:id="@+id/Done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="459dp" />
+</android.support.constraint.ConstraintLayout>

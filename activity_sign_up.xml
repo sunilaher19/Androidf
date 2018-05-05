@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zeus.loginpage.signUp">
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="57dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/etLogin"
+        tools:layout_editor_absoluteX="163dp"
+        android:layout_below="@+id/UserId"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/UserId"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/Password"
+        android:layout_marginTop="115dp"
+        android:ems="10"
+        android:hint="UserId"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/etLogin"
+        tools:layout_editor_absoluteX="163dp" />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Submit"
+        android:layout_marginTop="81dp"
+        android:layout_below="@+id/Question2"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/Password"
+        android:layout_below="@+id/Password"
+        android:layout_marginTop="66dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Question1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/confirmPassword"
+        android:layout_below="@+id/confirmPassword"
+        android:layout_marginTop="58dp"
+        android:ems="10"
+        android:hint="City you were born"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Question2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/Question1"
+        android:layout_below="@+id/Question1"
+        android:layout_marginTop="67dp"
+        android:ems="10"
+        android:hint="Fav color"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/TextView_PwdProblem"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/confirmPassword"
+        android:layout_marginStart="38dp"
+        android:layout_toEndOf="@+id/confirmPassword" />
+
+
+</RelativeLayout>

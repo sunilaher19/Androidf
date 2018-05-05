@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zeus.loginpage.adminFunction">
+
+    <Button
+        android:id="@+id/Insertbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="63dp"
+        android:text="Insert New prodcut"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="166dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/upateuserbt" />
+
+    <Button
+        android:id="@+id/Deletebt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="Delete Old product"
+        android:layout_below="@+id/Insertbt"
+        android:layout_alignEnd="@+id/Insertbt" />
+
+    <Button
+        android:id="@+id/Updatebt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="Update Product"
+        android:layout_below="@+id/Deletebt"
+        android:layout_alignStart="@+id/Deletebt"
+        android:layout_alignEnd="@+id/Insertbt" />
+
+    <Button
+        android:id="@+id/upateuserbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:text="Chnage Users information"
+        android:layout_below="@+id/Updatebt"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/checkorderbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/upateuserbt"
+        android:layout_below="@+id/upateuserbt"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="84dp"
+        android:text="Check Orders" />
+
+    <TextView
+        android:id="@+id/data1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/upateuserbt"
+        android:layout_below="@+id/Insertbt"
+        android:layout_marginTop="32dp"
+        android:text="TextView" />
+</RelativeLayout>

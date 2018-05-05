@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zeus.loginpage.SecondActivity">
+
+    <TextView
+        android:id="@+id/tx1"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="105dp"
+        android:layout_marginTop="93dp"
+        android:text="Data1 Price 200" />
+
+    <CheckBox
+        android:id="@+id/ck1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tx1"
+        android:layout_marginEnd="100dp"
+        android:layout_toStartOf="@+id/tx1" />
+
+    <CheckBox
+        android:id="@+id/ck2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ck1"
+        android:layout_below="@+id/ck1"
+        android:layout_marginTop="65dp" />
+
+    <TextView
+        android:id="@+id/tx2"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/ck2"
+        android:layout_toEndOf="@+id/ck1"
+        android:text="Data2 Price 300" />
+
+    <TextView
+        android:id="@+id/tx3"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/tx2"
+        android:layout_below="@+id/tx2"
+        android:layout_marginTop="84dp"
+        android:text="Data 3 Price 400" />
+
+    <CheckBox
+        android:id="@+id/ck3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ck2"
+        android:layout_alignTop="@+id/tx3" />
+
+    <Button
+        android:id="@+id/Insertbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/tx3"
+        android:text="Proceed" />
+</RelativeLayout>
